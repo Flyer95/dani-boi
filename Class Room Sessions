@@ -1,0 +1,30 @@
+# ========================================================================
+# Class Session 1
+# ========================================================================
+
+python:
+  adj1 = rempy.input("Type an Adjective (past tense): ")
+	adj1 = adj1.strip()
+  
+  loc2 = rempy.input("Type a location: ")
+	loc2 = loc2.strip()
+	
+	num1 = rempy.input("Type a whole number: ")
+	num1 = num1.strip()
+  
+  loc1 = rempy.input("Type a location: ")
+	loc1 = loc1.strip()
+
+	num2 = rempy.input("Type a whole number: ")
+	num2 = num2.strip()
+  
+  prof1 = rempy.input("Type a profession: ")
+	prof1 = prof1.strip()
+  
+pov "Christopher Columbus was [adj1] on the 31st of October in [num2] AD."
+
+if [num2] < 0:
+   f "So... is '[num2] AD' like... BC?"
+pov "He was an Italian explorer, [prof1], and colonizer and was [adj1] in the Republic of Genoa."
+pov "Under the auspices of the Catholic Monarchs of Spain he completed [num1] voyages across the Atlantic Ocean."
+pov "Those voyages and his efforts to establish settlements on the island of [loc1], initiated the permanent European colonization of the [loc2]."
