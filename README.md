@@ -1,2 +1,2 @@
-# furry-hell
-We're going to screw around in Unity
+# dani-boi
+We're making a dating sim. God help us...
